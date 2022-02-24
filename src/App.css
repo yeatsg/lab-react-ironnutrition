@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.orderBoxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.foodBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 350px;
+  border: 2px solid grey;
+}
+
+.imageBox {
+  width: 125px;
+}
